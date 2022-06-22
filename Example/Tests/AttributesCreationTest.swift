@@ -22,7 +22,7 @@ class AttributesCreationTest: XCTestCase {
         var attributes = EKAttributes()
         attributes.precedence.priority = .high
         XCTAssertEqual(attributes.precedence.priority, .high)
-        XCTAssertEqual(attributes.precedence.priority.rawValue, EKAttributes.Precedence.Priority.maxRawValue)
+        XCTAssertEqual(attributes.precedence.priority.rawValue, EKAttributes.Precedence.Priority.highRawValue)
     }
     
     func testDisplayPriorityInitCustom() {
