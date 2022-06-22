@@ -9,7 +9,7 @@
 import XCTest
 @testable import SwiftEntryKit
 
-class AttributesCreationTest: XCTestSuite {
+class AttributesCreationTest: XCTestCase {
 
     func testDisplayPriorityInitMax() {
         var attributes = EKAttributes()
